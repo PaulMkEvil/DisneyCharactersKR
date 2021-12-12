@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Walt Disney</title>
+	<link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/LogIn.css">
+	<link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/mediastyles.css">
+</head>
+<body>
+	<header>
+		<a id="logo-ref" href="Main.html"><img id="logo" src="img/disney.png" alt="Логотип"></a>
+        <nav>
+            <a href="Main.html">Вернуться на главную</a>
+        </nav>
+	</header>
+	<section>
+		<div class="wrapper">
+			<h1>Логин</h1>
+			<form action="#">
+				<div class="field email">
+					<div class="input-area">
+						<input type="text" placeholder="Почта">
+						<i class="icon fas fa-envelope"></i>
+						<i class="error error-icon fas fa-exclamation-circle"></i>
+					</div>
+					<div class="error error-txt">Это поле не может быть пустым</div>
+				</div>
+				<div class="field password">
+					<div class="input-area">
+						<input type="password" placeholder="Пароль">
+						<i class="icon fas fa-lock"></i>
+						<i class="error error-icon fas fa-exclamation-circle"></i>
+					</div>
+					<div class="error error-txt">Неверный пароль</div>
+				</div>
+				<div class="pass-txt"><a href="#">Забыли пароль?</a></div>
+				<input type="submit" value="Войти">
+			</form>
+			<div class="sign-txt">Нет аккаунта? <a href="#">Зарегистрируйтесь!</a></div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
+	<footer>
+        <p>Курсовая работа. Студент РТУ МИРЭА Макеев Павел</p>
+    </footer>
+</body>
+</html>
